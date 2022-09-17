@@ -1,0 +1,22 @@
+.gal-container .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+
+}
+
+.gal-container .box .img-dump {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+}
+
+.gal-container .box .img-dump img {
+    width: 100%;
+    padding: 30px;
+    border-radius: 5px;
+    
+
+}
