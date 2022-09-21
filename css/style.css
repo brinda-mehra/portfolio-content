@@ -738,6 +738,14 @@ header .header-output {
 
 }
 
+.gal-container .box .img-dump img:hover {
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease
+}
+
 @media only screen and (max-width:740px) {
 
     .gal-container .scribble-heading {
